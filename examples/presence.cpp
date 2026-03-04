@@ -70,7 +70,7 @@ private:
 
 int main()
 {
-  RealtimeApplication app;
+  RealtimeApp app;
   PresenceStore presence;
 
   // Everyone joins the same presence topic so they can see online/offline changes.

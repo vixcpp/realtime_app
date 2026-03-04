@@ -45,7 +45,7 @@ static std::uint64_t now_ms()
 
 int main()
 {
-  RealtimeApplication app;
+  RealtimeApp app;
 
   MemSession a("a", "alice");
   MemSession b("b", "bob");

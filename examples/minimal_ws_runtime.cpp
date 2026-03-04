@@ -48,7 +48,7 @@ static std::uint64_t now_ms()
 
 int main()
 {
-  RealtimeApplication app;
+  RealtimeApp app;
 
   // Handshake auth: allow only if header "x-token" == "dev"
   app.set_handshake_auth_hook([](const vix::web_app::Request &req, SessionMeta &meta) -> PolicyDecision

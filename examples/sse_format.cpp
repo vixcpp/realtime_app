@@ -15,7 +15,7 @@ int main()
   std::cout << chunk;
 
   // Example: open SSE response headers (for an HTTP handler).
-  auto r = RealtimeApplication::sse_open();
+  auto r = RealtimeApp::sse_open();
   std::cout << "status=" << r.status << "\n";
   std::cout << "content-type=" << r.headers["content-type"] << "\n";
   return 0;
