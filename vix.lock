@@ -1,0 +1,26 @@
+{
+  "dependencies": [
+    {
+      "commit": "8182b5da11cccb4fb66aba523974ff0c5823f711",
+      "id": "vix/api_app",
+      "repo": "https://github.com/vixcpp/api_app",
+      "tag": "v0.1.0",
+      "version": "0.1.0"
+    },
+    {
+      "commit": "9aad4cc1c767d5a2a54f4f00f436acd4315e413b",
+      "id": "vix/web_app",
+      "repo": "https://github.com/vixcpp/web_app",
+      "tag": "v0.1.0",
+      "version": "0.1.0"
+    },
+    {
+      "commit": "e824328f1835aa0a0af7ee988018a3cb5696dbcb",
+      "id": "vix/app",
+      "repo": "https://github.com/vixcpp/app",
+      "tag": "v0.1.0",
+      "version": "0.1.0"
+    }
+  ],
+  "lockVersion": 1
+}
