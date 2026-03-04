@@ -140,7 +140,7 @@ private:
 
 int main()
 {
-    RealtimeApplication app;
+    RealtimeApp app;
 
     Session s;
 
@@ -262,7 +262,7 @@ auto chunk = sse_format(
 To open an SSE stream:
 
 ```cpp
-auto res = RealtimeApplication::sse_open();
+auto res = RealtimeApp::sse_open();
 ```
 
 Headers set automatically:
@@ -275,7 +275,7 @@ Headers set automatically:
 
 Core types:
 
-- `vix::realtime_app::RealtimeApplication`
+- `vix::realtime_app::RealtimeApp`
 - `vix::realtime_app::RealtimeSession`
 - `vix::realtime_app::RealtimeEvent`
 - `vix::realtime_app::SessionMeta`
